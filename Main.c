@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -247,7 +248,7 @@ void addlibrarian(){
         {
             exit(0);
         }
-        
+
     }
     fclose(fp);
     printf("\tPress 1 to return to main menu\n");
@@ -261,7 +262,7 @@ void addlibrarian(){
     {
         exit(0);
     }
-    
+
 }
 
 void removelibrarian(){
@@ -398,7 +399,7 @@ void member(){
     {
         memberdetails();
     }
-    
+
     else if (choice == 0)
     {
         main_menu();
@@ -614,7 +615,7 @@ void borrow(){
                 printf("Book Quantity : %d\n", bk.quantity);
                 break;
             }
-        }        
+        }
     }
     if (f==0)
     {
@@ -654,7 +655,7 @@ void borrow(){
     default:
         exit(0);
         break;
-    }    
+    }
 }
 
 void return_book(){
@@ -742,7 +743,7 @@ void return_book(){
         {
             member();
         }
-        
+
     }
 }
 
